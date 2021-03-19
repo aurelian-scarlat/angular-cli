@@ -1,6 +1,6 @@
-FROM node:14-stretch
+FROM node:15-stretch
 
 WORKDIR /usr/src/app
 EXPOSE 4200
 
-RUN npm install -g @angular/cli@^10
+RUN npm install -g @angular/cli@^12
